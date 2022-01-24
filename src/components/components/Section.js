@@ -17,6 +17,10 @@ function Section() {
           <li><img src="prograd.png" width="230" height="auto"/></li>
         </ul>
       </Client>
+      <Hello>
+        <h1>This is my first site</h1>
+      </Hello>
+
     </Company>
   </div>;
 }
@@ -48,5 +52,9 @@ ul{
   display: flex;
   list-style:none;
 }
+
+`
+const Hello = styled.div`
+
 
 `
